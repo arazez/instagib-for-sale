@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>instagib.gg is for sale</title>
+  <meta name="description" content="The domain instagib.gg is for sale. $1,999 USD, or make an offer.">
+  <meta property="og:title" content="instagib.gg is for sale">
+  <meta property="og:description" content="One shot. One kill. One domain. $1,999 USD, or make an offer.">
+  <meta property="og:url" content="https://instagib.gg/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#07090d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%2300e5ff' stroke-width='2.5'/%3E%3Cpath d='M16 1v9M16 22v9M1 16h9M22 16h9' stroke='%2300e5ff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23ff2e63'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090d;
+      --panel: #0e131b;
+      --line: #1d2633;
+      --text: #e8eef6;
+      --muted: #8b98a9;
+      --beam: #00e5ff;
+      --hit: #ff2e63;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 0%, rgba(0, 229, 255, 0.08), transparent 60%),
+        radial-gradient(ellipse 60% 50% at 0% 100%, rgba(255, 46, 99, 0.06), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 48px 16px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font: 600 12px/1 Inter, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--beam);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+
+    .tag svg { width: 14px; height: 14px; }
+
+    h1 {
+      position: relative;
+      margin: 24px 0 4px;
+      font: 700 clamp(48px, 9vw, 92px)/1 "Chakra Petch", sans-serif;
+      letter-spacing: -0.02em;
+      overflow-wrap: anywhere;
+    }
+
+    h1 .tld { color: var(--beam); }
+
+    /* Railgun beam sweeping across the domain name */
+    .beam {
+      position: relative;
+      height: 3px;
+      margin: 18px 0 22px;
+      background: var(--line);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .beam::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, var(--beam) 40%, #fff 50%, var(--beam) 60%, transparent);
+      box-shadow: 0 0 12px var(--beam);
+      transform: translateX(-100%);
+      animation: fire 3.2s cubic-bezier(.7, 0, .2, 1) infinite;
+    }
+
+    @keyframes fire {
+      0%   { transform: translateX(-100%); }
+      35%  { transform: translateX(100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    .sub {
+      margin: 0;
+      font: 500 clamp(22px, 3.4vw, 30px)/1.2 "Chakra Petch", sans-serif;
+      color: var(--muted);
+    }
+
+    .sub strong { color: var(--text); font-weight: 700; }
+
+    .pitch {
+      margin: 20px 0 0;
+      max-width: 34em;
+      color: var(--muted);
+    }
+
+    .pitch em { color: var(--text); font-style: normal; font-weight: 600; }
+
+    .price {
+      margin: 32px 0 20px;
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+    }
+
+    .price .amount {
+      font: 700 44px/1 "Chakra Petch", sans-serif;
+    }
+
+    .price .note { color: var(--muted); }
+
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 48px;
+      padding: 0 22px;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      font: 600 15px/1 Inter, sans-serif;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn:focus-visible, input:focus-visible, textarea:focus-visible {
+      outline: 2px solid var(--beam);
+      outline-offset: 2px;
+    }
+
+    .btn-primary {
+      background: var(--beam);
+      color: #001318;
+      box-shadow: 0 0 0 0 rgba(0, 229, 255, 0);
+    }
+
+    .btn-primary:hover { box-shadow: 0 0 24px rgba(0, 229, 255, 0.45); }
+
+    .trust {
+      margin: 24px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .trust svg { flex: none; width: 16px; height: 16px; color: var(--beam); }
+
+    /* Offer form */
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px;
+      scroll-margin-top: 16px;
+    }
+
+    .card h2 {
+      margin: 0 0 4px;
+      font: 700 24px/1.2 "Chakra Petch", sans-serif;
+    }
+
+    .card p { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
+
+    label {
+      display: block;
+      margin: 0 0 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    label .opt { font-weight: 400; }
+
+    .field { margin-bottom: 16px; }
+
+    input, textarea {
+      width: 100%;
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font: 16px/1.4 Inter, sans-serif;
+    }
+
+    input::placeholder, textarea::placeholder { color: #4f5b6b; }
+
+    textarea { min-height: 96px; resize: vertical; }
+
+    .money { position: relative; }
+
+    .money span {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    .money input { padding-left: 28px; }
+
+    .card .btn { width: 100%; }
+
+    .status { margin: 14px 0 0; font-size: 14px; min-height: 1.4em; }
+    .status.ok { color: var(--beam); }
+    .status.err { color: var(--hit); }
+
+    footer {
+      padding: 24px 16px;
+      text-align: center;
+      font-size: 13px;
+      color: #4f5b6b;
+    }
+
+    @media (max-width: 860px) {
+      main {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-top: 32px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .actions .btn { flex: 1 1 100%; }
+      .card { padding: 22px 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beam::after { animation: none; transform: none; }
+      .btn { transition: none; }
+      .btn:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <span class="tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="7"/><path d="M12 1v6M12 17v6M1 12h6M17 12h6"/>
+        </svg>
+        Domain for sale
+      </span>
+
+      <h1>instagib<span class="tld">.gg</span></h1>
+      <div class="beam" aria-hidden="true"></div>
+      <p class="sub"><strong>One shot. One kill.</strong> One domain.</p>
+
+      <p class="pitch">
+        <em>Instagib</em> is the legendary one-shot, one-kill game mode from Quake and Unreal Tournament.
+        A short, memorable name for an arena shooter, tournament, clan or gaming community.
+      </p>
+
+      <div class="price">
+        <span class="amount">$1,999 <span style="font-size: 0.45em; color: var(--muted);">USD</span></span>
+        <span class="note">Buy outright, or make an offer</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="#offer">Make an offer</a>
+      </div>
+
+      <p class="trust">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/>
+        </svg>
+        Secure payment and transfer via escrow, usually completed in 1–3 days.
+      </p>
+    </section>
+
+    <section class="card" id="offer">
+      <h2>Make an offer</h2>
+      <p>Offer $1,999 to buy it outright, or tell me what you'd like to pay and I'll get back to you.</p>
+
+      <form id="offer-form" action="https://formspree.io/f/xbgdggwr" method="POST">
+        <input type="hidden" name="_subject" value="Offer for instagib.gg">
+
+        <div class="field">
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="amount">Your offer (USD)</label>
+          <div class="money">
+            <span>$</span>
+            <input id="amount" name="offer_usd" type="number" inputmode="numeric" min="1" step="1" placeholder="1999" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message <span class="opt">(optional)</span></label>
+          <textarea id="message" name="message" placeholder="What are you planning to build?"></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Send offer</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>instagib.gg</footer>
+
+  <script>
+    // Submit the offer form without leaving the page
+    const form = document.getElementById('offer-form');
+    const status = document.getElementById('status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const button = form.querySelector('button');
+      button.disabled = true;
+      status.className = 'status';
+      status.textContent = 'Sending…';
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        });
+        if (!res.ok) throw new Error();
+        form.reset();
+        status.className = 'status ok';
+        status.textContent = 'Thanks! Your offer has been sent. I\'ll reply by email soon.';
+      } catch {
+        status.className = 'status err';
+        status.textContent = 'Something went wrong. Please try again in a moment.';
+      } finally {
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
